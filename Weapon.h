@@ -1,5 +1,4 @@
-
-enum WeaponType {Normal=0,Magical};
+#include "WeaponType.h"
 
 class Weapon
 {

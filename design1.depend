@@ -9,3 +9,14 @@
 
 1588441315 c:\users\aveneid\documents\github\patterdesignsproject\design1\weapontype.h
 
+1514144174 source:c:\users\aveneid\documents\github\patterdesignsproject\design1\design1\main.cpp
+	<iostream>
+
+1588459537 source:c:\users\aveneid\documents\github\patterdesignsproject\design1\design1\weapon.cpp
+	"Weapon.h"
+
+1588459489 c:\users\aveneid\documents\github\patterdesignsproject\design1\design1\weapon.h
+	"WeaponType.h"
+
+1588459689 c:\users\aveneid\documents\github\patterdesignsproject\design1\design1\weapontype.h
+
