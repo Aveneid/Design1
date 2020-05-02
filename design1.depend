@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1514144174 source:c:\users\aveneid\documents\github\patterdesignsproject\design1\main.cpp
+	<iostream>
+
+1588458520 source:c:\users\aveneid\documents\github\patterdesignsproject\design1\weapon.cpp
+	"Weapon.h"
+
+1588458523 c:\users\aveneid\documents\github\patterdesignsproject\design1\weapon.h
+
+1588441315 c:\users\aveneid\documents\github\patterdesignsproject\design1\weapontype.h
+
