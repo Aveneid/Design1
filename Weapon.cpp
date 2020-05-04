@@ -8,7 +8,7 @@ Weapon::Weapon(Type attackType, int baseDmg, int minLv)
 }
 Weapon::~Weapon() {}
 
-Type Weapon::getAttackType()
+Weapon::Type Weapon::getAttackType()
 {
     return p_attackType;
 }
