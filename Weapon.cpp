@@ -1,6 +1,6 @@
 #include "Weapon.h"
 
-Weapon::Weapon(WeaponType attackType, int baseDmg, int minLv)
+Weapon::Weapon(Type attackType, int baseDmg, int minLv)
 {
     p_attackType = attackType;
     p_baseDamage = baseDmg;
@@ -8,7 +8,7 @@ Weapon::Weapon(WeaponType attackType, int baseDmg, int minLv)
 }
 Weapon::~Weapon() {}
 
-WeaponType Weapon::getAttackType()
+Type Weapon::getAttackType()
 {
     return p_attackType;
 }

@@ -2,7 +2,7 @@ class Weapon
 {
 public:
 
-    enum  WeaponType
+    enum class Type
     {
         Normal=0,
         Magical
@@ -11,9 +11,9 @@ public:
     int getBaseDamage();
     int getMinLevel();
 
-    WeaponType getAttackType();
+    Type getAttackType();
 
-    Weapon(WeaponType,int,int);
+    Weapon(Type,int,int);
     ~Weapon();
 
 
@@ -23,7 +23,7 @@ private:
     int p_baseDamage;
     int p_minLevel;
 
-    WeaponType p_attackType;
+    Type p_attackType;
 
 
 };
