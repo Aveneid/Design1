@@ -3,7 +3,7 @@
 void Entity::dealDamage(Entity enemy)
 {
     int damage = 0;
-    if(p_currentWeapon.getAttackType() == WeaponType.Magical)
+    if(p_currentWeapon.getAttackType() == WeaponType::Magical)
         damage = p_currentWeapon.getBaseDamage() * getMag() / (getMag() / enemy.getDef());
     else
         damage = p_currentWeapon.getBaseDamage() * getStr() / (getStr() / enemy.getDef());

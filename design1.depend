@@ -12,11 +12,16 @@
 1514144174 source:c:\users\aveneid\documents\github\patterdesignsproject\design1\design1\main.cpp
 	<iostream>
 
-1588459537 source:c:\users\aveneid\documents\github\patterdesignsproject\design1\design1\weapon.cpp
+1588602769 source:c:\users\aveneid\documents\github\patterdesignsproject\design1\design1\weapon.cpp
 	"Weapon.h"
 
-1588459489 c:\users\aveneid\documents\github\patterdesignsproject\design1\design1\weapon.h
-	"WeaponType.h"
+1588617151 c:\users\aveneid\documents\github\patterdesignsproject\design1\design1\weapon.h
 
 1588459689 c:\users\aveneid\documents\github\patterdesignsproject\design1\design1\weapontype.h
+
+1588601637 source:c:\users\aveneid\documents\github\patterdesignsproject\design1\design1\entity.cpp
+	"Entity.h"
+
+1588459708 c:\users\aveneid\documents\github\patterdesignsproject\design1\design1\entity.h
+	"Weapon.h"
 
