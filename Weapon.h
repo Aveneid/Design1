@@ -2,7 +2,7 @@ class Weapon
 {
 public:
 
-    enum class Type
+    enum  Type
     {
         Normal=0,
         Magical

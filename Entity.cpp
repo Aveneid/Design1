@@ -1,9 +1,10 @@
 #include "Entity.h"
 
+
 void Entity::dealDamage(Entity enemy)
 {
     int damage = 0;
-    if(p_currentWeapon.getAttackType() == Weapon::Type::Magical)
+    if(p_currentWeapon.getAttackType() == Weapon::Magical)
         damage = p_currentWeapon.getBaseDamage() * getMag() / (getMag() / enemy.getDef());
     else
         damage = p_currentWeapon.getBaseDamage() * getStr() / (getStr() / enemy.getDef());
