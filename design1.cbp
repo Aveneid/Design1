@@ -36,14 +36,13 @@
 		</Compiler>
 		<Unit filename="Entity.cpp" />
 		<Unit filename="Entity.h" />
-		<Unit filename="Enums.h" />
-		<Unit filename="Weapon.cpp" />
-		<Unit filename="Weapon.h" />
-		<Unit filename="WeaponType.h" />
-		<Unit filename="WeaponTypeEnum.h" />
-		<Unit filename="enemy.h" />
+		<Unit filename="Weapon/MagicalWeapon.h" />
+		<Unit filename="Weapon/MagicalWeaponFactory.h" />
+		<Unit filename="Weapon/NormalWeaponFactory.h" />
+		<Unit filename="Weapon/Weapon.cpp" />
+		<Unit filename="Weapon/Weapon.h" />
+		<Unit filename="Weapon/WeaponFactoryInterface.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="player.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
